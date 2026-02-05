@@ -1,4 +1,5 @@
-<style>*{
+<style>
+*{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -42,7 +43,7 @@ background:transparent;
   gap:40px;
 }
 
-.text{
+.hero-text{
  width: 50%;
 }
 
@@ -117,8 +118,8 @@ footer{
 
 .hero-images{
   position:absolute;
-  width:260px;
-  height:260px;
+  width:200px;
+  height:200px;
   margin-left:900px;
   margin-top: 300px;
 }
