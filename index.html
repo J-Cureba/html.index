@@ -3,234 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wash-To-Go</title>
+<title>Wash To Go</title>
+<link rel="stylesheet" href="style.css">
 
-<style>
-{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Arial, sans-serif;
-}
-
-body{
-    background:#f4f4f4;
-}
-
-.container{
-    width:95%;
-    max-width:1100px;
-    margin:auto;
-    background:white;
-    border:2px solid #2b1bb3;
-}
-
-
-header{
-    background:#2b1bb3;
-    color:white;
-    padding:18px 25px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-  
-}
-
-.logo{
-    font-size:22px;
-    font-weight:bold;
-}
-
-.contact-btn{
-    border:2px solid white;
-    padding:8px 18px;
-    color:white;
-    
-    margin-top:5px;
-}
-
-
-.main{
-    padding:40px 30px;
-}
-
-.main-content{
-    display:flex;
-    align-items:center;
-    gap:40px;
-}
-
-.text{
-    flex:1;
-}
-
-.text h1{
-    font-size:42px;
-    color:#2b1bb3;
-    margin-bottom:20px;
-}
-
-.text p{
-    font-size:16px;
-   
-    margin-bottom:15px;
-}
-
-.image{
-    flex:1;
-}
-
-.image img{
-    width:100%;
-    border-radius:12px;
-}
-
-
-.gallery{
-    display:flex;
-    justify-content:space-between;
-    gap:20px;
-    margin:50px ;
-}
-
-.circle{
-    text-align:center;
-    flex:1;
-}
-
-.circle img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    object-fit:cover;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:12px;
-    background:#2b1bb3;
-    color:white;
-    padding:10px 22px;
-    text-decoration:none;
-    font-size:14px;
-}
-
-
-footer{
-    text-align:center;
-    padding:20px;
-    color:#2b1bb3;
-    font-weight:bold;
-}
-
-
-@media (max-width:900px){
-    .main-content{
-        flex-direction:column;
-    }
-
-    .text h1{
-        font-size:34px;
-    }
-
-    .gallery{
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .circle{
-        flex:45%;
-        margin-bottom:25px;
-    }
-}
-@media (max-width:500px){
-
-    header{
-        flex-direction:column;
-        align-items:flex-start;
-        gap:10px;
-    }
-
-    .text h1{
-        font-size:28px;
-    }
-
-    .text p{
-        font-size:15px;
-    }
-
-    .gallery{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .circle{
-        width:100%;
-    }
-
-    .circle img{
-        width:130px;
-        height:130px;
-    }
-}
-</style>
 </head>
 
 <body>
 
-<div class="container">
 
-<header>
-    <div class="logo">WASH-TO-GO</div>
-    <a href="#" class="contact-btn">CONTACT</a>
+<header class="navbar">
+  <div class="rating">⭐ ⭐ ⭐ ⭐ ⭐ <span class="span">5 STAR RATING SHOP</span></div>
+  <h1 class="logo">WASH-<br>TO-GO</h1>
+  <button class="contact-btn">CONTACT</button>
 </header>
 
-<section class="main">
-    <div class="main-content">
-        <div class="text">
-            <h1>Foam and Flow,<br>Watch It Glow!</h1>
 
-            <p>Keeping your car clean isn't just about looks — it's about care.
-            We make sure every vehicle shines and feels fresh.</p>
+<section class="hero">
 
-            <p>We know your time is valuable, so we clean cars fast and hassle-free.
-            From quick wash to full detail, we give quality results.</p>
+  <div class="hero-text">
+    <h2>Foam and Flow, <br>Watch It Glow!</h2>
 
-            <p>We use safe products to protect your car and give a spotless finish
-            inside and out.</p>
-        </div>
+    <p>
+    ‎Keeping your car clean isn't just about looks-it's about care. At our car wash, we make sure every vehicle shines bright and feels fresh, giving you a ride you'll be proud of. We don't just wash cars, we bring back that brand-new feeling every time you drive out.
+    </p>
+    <p>
+      We know your time is valuable, so we make car cleaning fast, convenient, and hassle-free. Whether It's a quick wash or a full detail, our team works efficiently without compromising on quality. You'll get professional results that fit perfectly into your busy schedule.
+    </p>
 
-        <div class="image">
-            <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9">
-        </div>
-    </div>
+    <p>
+     Our service is also made with you in mind. We use quality products and techniques to protect your car's paint,keeping it safe from scratches and damage. From wheels to windows, we pay attention to every detail so you can enjoy a spotless finish inside and out.
+    </p>
+  </div>
 
-    <div class="gallery">
-        <div class="circle">
-            <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9">
-            <br>
-            <a href="#" class="btn">ABOUT</a>
-        </div>
-
-        <div class="circle">
-            <img src="https://images.unsplash.com/photo-1597002973303-66d3c7f19b6f">
-            <br>
-            <a href="#" class="btn">CONTACT</a>
-        </div>
-
-        <div class="circle">
-            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-            <br>
-            <a href="#" class="btn">SERVICES</a>
-        </div>
-    </div>
+  <div class="hero-images">
+     <a href="https://ibb.co/d49v7V12"><img src="https://i.ibb.co/0yNLQ68M/Messenger-creation-A3-DE0-D49-61-AB-444-C-8-E67-F3-AC7-F17-B14-B.jpg" alt="Messenger creation A3DE0D49 61AB 444C 8E67 F3AC7F17B14B" border="" class="circle"></a>
+    <a href="https://ibb.co/yvcZzrw"><img src="https://i.ibb.co/2V1CzTD/Messenger-creation-5-F1-ADDA3-FBF2-48-F1-916-B-4-B0-EC570-F11-E.jpg" alt="Messenger-creation-5-F1-ADDA3-FBF2-48-F1-916-B-4-B0-EC570-F11-E" border="0" class="square"></a>
+  </div>
 </section>
 
-<footer>
-    www.wash-to-go.com
-</footer>
 
-</div>
+<section class="services">
+  <div class="service-item">
+    <a href="https://ibb.co/yvcZzrw"><img src="https://i.ibb.co/2V1CzTD/Messenger-creation-5-F1-ADDA3-FBF2-48-F1-916-B-4-B0-EC570-F11-E.jpg" alt="Messenger-creation-5-F1-ADDA3-FBF2-48-F1-916-B-4-B0-EC570-F11-E" border="0"></a>
+    <button>HOME</button>
+  </div>
+
+  <div class="service-item">
+    <a href="https://ibb.co/V0XpHRN1"><img src="https://i.ibb.co/Y4vTDmWC/Messenger-creation-E8204-FAC-D325-44-C3-89-AC-169-C7-C48-EDB7.jpg" alt="Messenger creation E8204FAC D325 44C3 89AC 169C7C48EDB7" border="0"></a>
+    <button>CONTACT</button>
+  </div>
+
+  <div class="service-item">
+    <a href="https://ibb.co/d49v7V12"><img src="https://i.ibb.co/0yNLQ68M/Messenger-creation-A3-DE0-D49-61-AB-444-C-8-E67-F3-AC7-F17-B14-B.jpg" alt="Messenger creation A3DE0D49 61AB 444C 8E67 F3AC7F17B14B" border=""></a>
+    <button>SERVICES</button>
+  </div>
+</section>
+
+<footer>WWW.WASH-TO-GO.COM</footer>
 
 </body>
-</html>
+    </html>
